@@ -9,6 +9,7 @@ This repo contains hands-on detection labs using Splunk, Sysmon, and Windows log
 
 ## Attack 1 – Suspicious Scheduled Task Creation
 **Command used**
+```PowerShell
 schtasks /create /sc minute /mo 5 /tn "Updater" /tr "calc.exe" 
 
 **Detection Method in Splunk**
