@@ -8,8 +8,8 @@ This repo contains hands-on detection labs using Splunk, Sysmon, and Windows log
 - Windows VM (via VMware)
 
 ## Attack 1 – Suspicious Scheduled Task Creation
-**Command used**
-```PowerShell
+**Command used:**
+
 schtasks /create /sc minute /mo 5 /tn "Updater" /tr "calc.exe" 
 
 **Detection Method in Splunk**
