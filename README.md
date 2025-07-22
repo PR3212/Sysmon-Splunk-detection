@@ -1,2 +1,3 @@
 # Sysmon-Splunk-detection
-Hands on lab using sysmon and Splunk to detect simulated attacks
+
+This repo contains hands-on detection labs using Splunk, Sysmon, and Windows logging.
