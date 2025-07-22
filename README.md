@@ -14,6 +14,8 @@ schtasks /create /sc minute /mo 5 /tn "Updater" /tr "calc.exe"
 
 **Detection Method in Splunk**
 index=* CommandLine="*calc.exe*"
+
+
 ![Log Screenshot](Incident-01.png)
 
 ## Attack 2 – Suspicious PowerShell Activity**
@@ -23,4 +25,6 @@ index=* CommandLine="*calc.exe*"
 
 **Detection Method in Splunk**
 index=* EventCode=1 Image="*powershell.exe" NOT Image="*splunk-powershell.exe"
+
+
 ![Log Screenshot](Incident-02.png)
