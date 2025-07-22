@@ -1,6 +1,6 @@
 # Sysmon-Splunk-detection
 
-This repo contains hands-on detection labs using Splunk, Sysmon, and Windows logging.
+This repo contains hands-on detection labs using Splunk, Sysmon, and Windows logging. I would run all of these simulations in a VM that I built and then took screenshots of the resulting logs in Splunk.
 
 ## Tools Used
 - Sysmon (with config)
