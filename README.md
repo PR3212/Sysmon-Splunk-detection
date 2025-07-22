@@ -13,4 +13,5 @@ schtasks /create /sc minute /mo 5 /tn "Updater" /tr "calc.exe"
 
 **Detection Method in Splunk**
 index=* CommandLine="*calc.exe*"
-![Log Screenshot](
+![Log Screenshot](Incident-01.png)
+
